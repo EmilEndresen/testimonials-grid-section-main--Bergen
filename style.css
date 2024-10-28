@@ -32,11 +32,15 @@ body {
     align-items: center;
     background-color: hsl(0, 0%, 85%);
     letter-spacing: .7px;
+
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     max-width: 375px;
     margin-top: auto;
+    gap: 20px;
 }
 
 footer {
