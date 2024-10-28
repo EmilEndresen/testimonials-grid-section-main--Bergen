@@ -108,6 +108,7 @@ h2 {
 .bold-para {
     font-size: 1.5rem;
     margin-top: 1.2rem;
+    font-weight: 500;
 }
 
 .quote {
@@ -144,7 +145,7 @@ p {
 
 @media only screen and (min-width: 500px) {
     main {
-        max-width: 80%;
+        max-width: 70%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr 1fr;
